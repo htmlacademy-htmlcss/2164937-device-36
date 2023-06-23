@@ -2,11 +2,90 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Девайс</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+<body>
+    <header class="header">
+      <div class="header-container">
+        <nav class="navigation">
+          <a href="index.html" class="logo navigation-logo">
+            <img src="images/logo.svg" alt="Логотип Девайс.">
+          </a>
+          <div class="navigation-container">
+             <form action="https://echo.htmlacademy.ru" method="get" class="form">
+               <input type="search" name="search" id="search" placeholder="Поиск по сайту" class="form-search">
+               <label for="search" class="visually-hidden">Поиск по сайту.</label>
+               <button class="form-button-search" type="submit">Найти</button>
+             </form>
+              <ul class="navigation-user-list navigation-user-list-login">
+               <li class="navigation-user-item">
+               <a href="#">Войти</a>
+               </li>
+              </ul>
+            <ul class="navigation-user-list">
+               <li class="navigation-user-item">
+               <a href="#">Сравнить</a>
+               </li>
+                <li class="navigation-user-item navigation-user-trash">
+                  <a href="#">Корзина<span class="navigation-number">2</span></a>
+             </ul>
+             </div>
+     </header>
+     <section class="advantages-section">
+       <ul>
+        <li>
+          <title>Порхает как бабочка,
+            жалит как пчела!</title>
+            <text>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+            </text>
+            <button class="form-button-search" type="submit">подробнее</button>
+        </li>
+        <li></li>
+       </ul>
+     </section>
+<Section class="catalog-product">
+<ul class="product-list">
+  <li class="product-item product-item-popover">
+    <a href="#"> Каталог товаров </a>
+    <div class="product-container">
+      <ul class="product-list">
+        <li class="product-item">
+          <a href="#"> Виртуальная реальность </a>
+        </li>
+        <li class="product-item">
+          <a href="#"> Моноподы для cелфи </a>
+        </li>
+        <li class="product-item">
+          <a href="#"> Экшн-камеры </a>
+        </li>
+        <li class="product-item">
+          <a href="#">Фитнес-браслеты</a>
+        </li>
+        <li class="product-item">
+          <a href="#">Умные часы</a>
+        </li>
+        <li class="product-item">
+          <a href="#">Квадрокоптеры</a>
+        </li>
+      </ul>
+    </div>
+  </Section>
+    <section class="advantages-container">
+    <ul>
+      <li class="advantages-item">
+        <a href="#"> Доставка </a>
+      </li>
+      <li class="navigation__item">
+        <a href="#"> Гарантия </a>
+      </li>
+      <li class="navigation__item">
+        <a href="#"> Контакты </a>
+      </li>
+    </ul>
+  </nav>
+</section>
+<main class="main"></main>
+<footer class="footer"></footer>
   </body>
 </html>
